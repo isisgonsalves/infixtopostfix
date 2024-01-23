@@ -1,0 +1,39 @@
+				---------------------------------------------------
+				COMP 1603 ASSIGNMENT 3: Infix, Postfix & Evaluation
+				---------------------------------------------------
+
+
+Infix Expression  : 4*2^ (2*3)
+Postfix Expression: 4223*^*
+Postfix Evaluation: 256
+
+Infix Expression  : 4 * (8-6) ^ (9-5) - 8*2
+Postfix Expression: 486-95-^*82*-
+Postfix Evaluation: 48
+
+Infix Expression  : 4 * (7 - 6) / (9-5)) - 8*8
+This is an invalid Infix Expression. Unable to convert...
+
+Infix Expression  : (8 + 6 * 5)/(8 - 3 * 2)
+Postfix Expression: 865*+832*-/
+Postfix Evaluation: 19
+
+Infix Expression  : 4 * (8 - 3) ^ (((7-5)) - 8*8
+This is an invalid Infix Expression. Unable to convert...
+
+Infix Expression  : (9-7) * ((5 - 4 * 2)/3/5) * 2
+Postfix Expression: 97-542*-3/5/*2*
+Postfix Evaluation: -0.8
+
+Infix Expression  : (8/2/2)- 3^2
+Postfix Expression: 82/2/32^-
+Postfix Evaluation: -7
+
+Infix Expression  : 4 * (8 - 3) ^ ((7-5)) - 8*8
+Postfix Expression: 483-75-^*88*-
+Postfix Evaluation: 36
+
+Infix Expression  : 4 * (7 - 6) / (9-5) - 8*8
+Postfix Expression: 476-*95-/88*-
+Postfix Evaluation: -63
+
